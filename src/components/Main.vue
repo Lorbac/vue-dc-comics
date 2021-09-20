@@ -1,6 +1,6 @@
 <template>
   <main>
-
+    <h1>--> Content goes here &lt;-- </h1>
   </main>
 </template>
 
@@ -15,5 +15,12 @@ export default {
   main {
     height: 200px;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      color: white;
+    }
   }
 </style>
