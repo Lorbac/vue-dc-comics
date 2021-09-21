@@ -51,6 +51,19 @@
       </div>
     </div>
     <div class="bottom-footer">
+      <div class="left-side-bottom-footer">
+        <button>
+          SIGN-UP NOW!
+        </button>
+      </div>
+      <div class="right-side-bottom-footer">
+        <p>FOLLOW US</p>
+        <img src="@/assets/images/footer-facebook.png" alt="">
+        <img src="@/assets/images/footer-twitter.png" alt="">
+        <img src="@/assets/images/footer-youtube.png" alt="">
+        <img src="@/assets/images/footer-pinterest.png" alt="">
+        <img src="@/assets/images/footer-periscope.png" alt="">
+      </div>
     </div>
   </footer>
 </template>
@@ -122,5 +135,31 @@ export default {
     height: 150px;
     width: 100%;
     background-color: #303030;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    button {
+      color: white;
+      background-color: #303030;
+      border: 1px solid #0282F9;
+      padding: 15px 30px;
+    }
+
+    .right-side-bottom-footer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      img {
+        padding: 10px;
+      }
+
+      p {
+        color: #0282F9;
+        font-weight: 600;
+        margin-right: 10px;
+      }
+    }
   }
 </style>
